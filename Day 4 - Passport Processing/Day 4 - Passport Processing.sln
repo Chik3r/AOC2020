@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 4 - Passport Processing", "Day 4 - Passport Processing.csproj", "{5949D394-C9CA-4A83-A1F8-E92E3781CAEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5949D394-C9CA-4A83-A1F8-E92E3781CAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5949D394-C9CA-4A83-A1F8-E92E3781CAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5949D394-C9CA-4A83-A1F8-E92E3781CAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5949D394-C9CA-4A83-A1F8-E92E3781CAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47B6EA91-6A0B-4FEE-B08E-000188F65C55}
+	EndGlobalSection
+EndGlobal
