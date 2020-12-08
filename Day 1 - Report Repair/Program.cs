@@ -11,7 +11,7 @@ namespace ReportRepair
 
 		static void Main(string[] args)
 		{
-			using (TextReader sr = new StreamReader(@"C:\Users\ikerv\Documents\Programming\Advent of Code\2020\Day - 1 Report Repair\values.txt", Encoding.UTF8))
+			using (TextReader sr = new StreamReader(@"C:\Users\ikerv\Documents\Programming\Advent of Code\2020\Day 1 - Report Repair\values.txt", Encoding.UTF8))
 			{
 				string line;
 				while ((line = sr.ReadLine()) != null)
