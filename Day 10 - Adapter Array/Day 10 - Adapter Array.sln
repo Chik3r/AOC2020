@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 10 - Adapter Array", "Day 10 - Adapter Array.csproj", "{3E2D1646-9419-4658-9BE9-2C39FFF5623D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E2D1646-9419-4658-9BE9-2C39FFF5623D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2D1646-9419-4658-9BE9-2C39FFF5623D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2D1646-9419-4658-9BE9-2C39FFF5623D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2D1646-9419-4658-9BE9-2C39FFF5623D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E1516E7-EC1F-4998-8BE9-D004CB90B4D2}
+	EndGlobalSection
+EndGlobal
