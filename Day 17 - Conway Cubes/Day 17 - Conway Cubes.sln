@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 17 - Conway Cubes", "Day 17 - Conway Cubes.csproj", "{970A29E9-2788-45A3-A53A-D4C970C618AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{970A29E9-2788-45A3-A53A-D4C970C618AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970A29E9-2788-45A3-A53A-D4C970C618AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970A29E9-2788-45A3-A53A-D4C970C618AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970A29E9-2788-45A3-A53A-D4C970C618AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23E5601A-11D9-4D4E-9A43-7DCE79FAF230}
+	EndGlobalSection
+EndGlobal
