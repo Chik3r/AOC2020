@@ -19,7 +19,7 @@ namespace Day_19___Monster_Messages
 			Dictionary<int, Rule> rules = new Dictionary<int, Rule>();
 			List<string> input = new List<string>();
 
-			var path = Path.Combine(Assembly.GetExecutingAssembly().Location, @"..\test.txt");
+			var path = Path.Combine(Assembly.GetExecutingAssembly().Location, @"..\input.txt");
 			bool addingRules = true;
 
 			using (TextReader sr = new StreamReader(path, Encoding.UTF8))
@@ -39,7 +39,7 @@ namespace Day_19___Monster_Messages
 						input.Add(line);
 						continue;
 					}
-					
+
 					if (subRuleRegex.IsMatch(line))
 					{
 						GroupCollection groups = subRuleRegex.Match(line).Groups;
@@ -80,7 +80,7 @@ namespace Day_19___Monster_Messages
 				}
 			}
 
-			string regexExpression = rules[0].GetValue(rules, true);
+			string regexExpression = rules[0].GetValue(rules, master: true);
 			Regex regex = new Regex(regexExpression, RegexOptions.Compiled);
 			List<Match> matches = input.Select(l => regex.Match(l)).ToList();
 
@@ -93,7 +93,7 @@ namespace Day_19___Monster_Messages
 		public List<List<int>> subRules = new List<List<int>>();
 		public string value = "";
 
-		public string GetValue(Dictionary<int, Rule> rules, bool master = false)
+		public string GetValue(Dictionary<int, Rule> rules, int position = -1, bool master = false)
 		{
 			if (!string.IsNullOrWhiteSpace(value))
 				return value;
@@ -108,7 +108,7 @@ namespace Day_19___Monster_Messages
 			{
 				foreach (int rule in subRules[i])
 				{
-					result += rules[rule].GetValue(rules);
+					result += rules[rule].GetValue(rules, rule);
 				}
 				if (i + 1 != subRules.Count)
 					result += "|";
